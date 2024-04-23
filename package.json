@@ -5,6 +5,7 @@
     "type": "module",
     "main": "build/index.js",
     "scripts": {
+        "build": "esbuild view/index.js --bundle --outdir=build --format=esm",
         "watch": "esbuild view/index.js --bundle --outdir=build --format=esm --watch"
     },
     "devDependencies": {
