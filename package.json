@@ -1,0 +1,14 @@
+{
+    "name": "cmajor-json",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "main": "build/index.js",
+    "scripts": {
+        "watch": "esbuild view/index.js --bundle --outdir=build --format=esm --watch"
+    },
+    "devDependencies": {
+        "esbuild": "^0.20.2",
+        "prettier": "^3.2.5"
+    }
+}

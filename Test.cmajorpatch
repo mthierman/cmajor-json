@@ -1,0 +1,17 @@
+{
+    "CmajorVersion": 1,
+    "ID": "com.your_name.your_patch_ID",
+    "version": "1.0",
+    "name": "Test",
+    "description": "Test",
+    "category": "generator",
+    "manufacturer": "Your Company Goes Here",
+    "isInstrument": true,
+    "source": "Test.cmajor",
+    "view": {
+        "src": "build/index.js",
+        "width": 500,
+        "height": 300,
+        "resizable": true
+    }
+}
